@@ -57,6 +57,15 @@ section img {
     margin-bottom: 1rem;
 }
 
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
 h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
@@ -96,14 +105,6 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 1rem auto;
-}
 
 #contact-form button {
     padding: 0.7rem;
@@ -128,4 +129,3 @@ footer {
     from { transform: translateY(20px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
 }
-
